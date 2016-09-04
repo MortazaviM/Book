@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_group"
+        android:background="@drawable/border">
+
+
+        <ImageView
+            android:id="@+id/group_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_group"
+            android:src="@drawable/prof"
+
+            />
+
+        <TextView
+            android:id="@+id/group_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_group"
+            android:layout_toRightOf="@+id/group_img"
+            android:text="Bernard Cornwell Fans"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/group_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/dots"
+            android:layout_alignParentRight="true" />
+
+
+        <TextView
+            android:id="@+id/group_mem_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group_txt"
+            android:layout_toRightOf="@id/group_img"
+            android:text="212 members"
+            android:textColor="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/group_update_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group_mem_txt"
+            android:layout_toRightOf="@id/group_img"
+            android:text="updated 17 mins  ago"
+            android:textColor="@android:color/darker_gray"
+
+            />
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/group_btn"
+            android:src="@drawable/prof"
+            android:layout_marginBottom="@dimen/margin_group"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

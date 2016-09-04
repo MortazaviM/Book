@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:id="@+id/img_prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundedimage"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_prof"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:text="Chloe is reading"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/img_prof"
+        android:text="The Flowship of the ring"
+        android:textColor="#52C0BF"
+
+        />
+
+
+    <TextView
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/title"
+        android:gravity="right"
+        android:text="Feb 21" />
+
+
+    <View
+        android:id="@+id/ruler"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/img_prof"
+        android:layout_marginTop="16dp"
+        android:background="#c0c0c0" />
+
+
+    <ImageView
+        android:id="@+id/img_book"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+
+        android:layout_below="@id/ruler"
+
+        android:src="@drawable/photo264868310023252131" />
+
+    <TextView
+        android:id="@+id/txt_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/ruler"
+        android:layout_toRightOf="@id/img_book"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:text="in accidental times the ring of power that crafted by jhj k dh jkhkjh jkhk hkjhk nmbnbbn bnmbmnb nmbnmb. i am a policeman can kill any body. android studio is so cute honey"
+        android:textColor="@android:color/black" />
+
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/img_book"
+        android:src="@drawable/ic_heart"
+        android:layout_toLeftOf="@+id/plus"
+        android:padding="16dp"
+        />
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/img_book"
+        android:src="@drawable/ic_plus"
+        android:padding="16dp"
+        />
+
+
+</RelativeLayout>
